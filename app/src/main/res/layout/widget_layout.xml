@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/closet_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_widget_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="11/11/2018"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_widget_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="weather status"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="@string/to_wear_list_widget"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</FrameLayout>

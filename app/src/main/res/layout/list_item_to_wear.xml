@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_to_wear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_to_wear"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/to_wear_image_description"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_to_wear_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_to_wear"
+                android:paddingLeft="@dimen/cloth_title_padding"
+                android:paddingTop="@dimen/cloth_title_padding"
+                android:paddingRight="@dimen/cloth_title_padding"
+                android:textColor="@color/cloth_title"
+                android:textSize="@dimen/cloth_title"
+                tools:text="Cloth Name" />
+
+            <ImageView
+                android:id="@+id/iv_overflow_to_wear"
+                android:layout_width="@dimen/ic_overflow_width"
+                android:layout_height="@dimen/ic_overflow_height"
+                android:layout_below="@id/iv_to_wear"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/ic_overflow_margin_top"
+                android:scaleType="centerCrop"
+                android:focusable="true"
+                android:contentDescription="@string/to_wear_overflow_description"
+                android:src="@drawable/ic_dots" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

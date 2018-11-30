@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TheCloset</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_category_msg">Please enter a new category name:</string>
+    <string name="cloth_name">Cloth Name:</string>
+    <string name="cloth_description">Description:</string>
+    <string name="cloth_price">Price:</string>
+    <string name="cloth_purchase_date">Purchase Date:</string>
+    <string name="cloth_brand">Brand:</string>
+    <string name="cloth_size">Size:</string>
+    <string name="add_cloth">Add</string>
+    <string name="save_cloth_detail">Save Details</string>
+
+    <string name="action_selected_items">Selected Items</string>
+    <string name="action_add_to_wear">Add To Wear Today</string>
+    <string name="action_view_detail">View Item Details</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_zipcode_label">ZIP Code</string>
+    <string name="pref_zipcode_default">10036</string>
+    <string name="pref_zipcode_key">zipcode</string>
+    <string name="category_image_description">Image view for category</string>
+    <string name="cloth_item_image_description">Image view for the cloth item</string>
+    <string name="cloth_item_overflow_description">Overflow icon for more options</string>
+    <string name="to_wear_image_description">Image view for each to wear item</string>
+    <string name="to_wear_overflow_description">Overflow icon for option to delete</string>
+    <string name="add_category_description">Add category</string>
+    <string name="to_wear_list_widget">To Wear List:</string>
+
+    <string-array name="category_names">
+        <item>Hats</item>
+        <item>Tops</item>
+        <item>Bottoms</item>
+        <item>Dresses</item>
+        <item>Outwears</item>
+        <item>Shoes</item>
+        <item>Accessories</item>
+    </string-array>
+</resources>

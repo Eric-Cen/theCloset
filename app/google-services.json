@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "258872081278",
+    "firebase_url": "https://thecloset-f84b5.firebaseio.com",
+    "project_id": "thecloset-f84b5",
+    "storage_bucket": "thecloset-f84b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258872081278:android:7507d4cff80951ee",
+        "android_client_info": {
+          "package_name": "com.mcarving.thecloset.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258872081278-rho4dheahrn5cnvo33lvr9gfgh698b6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mcarving.thecloset",
+            "certificate_hash": "dbd6c688da3fdd8d4be098974ce84cb547f91131"
+          }
+        },
+        {
+          "client_id": "258872081278-d1stqgpjtdkqsap0on5r47uk1fpd4nvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtKZr4xwMnL8k6OAXHZ1BV4fADqtUQx_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258872081278-d1stqgpjtdkqsap0on5r47uk1fpd4nvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
